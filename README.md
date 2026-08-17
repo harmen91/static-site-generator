@@ -1,32 +1,32 @@
-# 📄 Static Site Generator
+# Static Site Generator
 
 A static site generator built from scratch in Python — converts **Markdown files** into a fully rendered **HTML website**, with support for images, links, code blocks, lists, quotes, and more.
 
 Built as part of the [Boot.dev – Build a Static Site Generator in Python](https://www.boot.dev/courses/build-static-site-generator-python) course.
 
-🌐 **Live demo:** [harmen91.github.io/static-site-generator](https://harmen91.github.io/static-site-generator/)
+**Live demo:** [harmen91.github.io/static-site-generator](https://harmen91.github.io/static-site-generator/)
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project reimplements the core of what tools like [Hugo](https://gohugo.io/) or [Jekyll](https://jekyllrb.com/) do under the hood: walk a directory of Markdown content, parse it into an in-memory node tree, render it as HTML, copy static assets, and write the result to `docs/` — ready to be served by GitHub Pages.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📝 **Markdown to HTML** — full conversion pipeline including headings, paragraphs, lists, blockquotes, and code blocks
-- 🔗 **Inline element parsing** — bold, italic, inline code, links, and images
-- 🌳 **Node tree architecture** — HTML built via a composable `HTMLNode` / `LeafNode` / `ParentNode` hierarchy
-- 📁 **Static asset copying** — images and CSS are copied to `docs/` automatically
-- 🔁 **Recursive directory processing** — mirrors the `content/` folder structure into `docs/`
-- 🔧 **Basepath support** — configurable base path for deploying to a GitHub Pages subdirectory
-- 🚀 **One-command build** — shell scripts for building, previewing, and testing
+- **Markdown to HTML** — full conversion pipeline including headings, paragraphs, lists, blockquotes, and code blocks
+- **Inline element parsing** — bold, italic, inline code, links, and images
+- **Node tree architecture** — HTML built via a composable `HTMLNode` / `LeafNode` / `ParentNode` hierarchy
+- **Static asset copying** — images and CSS are copied to `docs/` automatically
+- **Recursive directory processing** — mirrors the `content/` folder structure into `docs/`
+- **Basepath support** — configurable base path for deploying to a GitHub Pages subdirectory
+- **One-command build** — shell scripts for building, previewing, and testing
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 static-site-generator/
@@ -86,7 +86,7 @@ static-site-generator/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -119,7 +119,7 @@ This runs `src/main.py` with a basepath of `/static-site-generator/` — matchin
 
 ---
 
-## 🧩 How It Works
+## How It Works
 
 ```
 ./build.sh
@@ -157,7 +157,7 @@ GitHub Pages runs Jekyll by default, which ignores files and folders starting wi
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 ./test.sh
@@ -174,7 +174,7 @@ Runs `python3 -m unittest discover -s src`, which picks up all `test_*.py` files
 
 ---
 
-## 📚 Course
+## Course
 
 This project was built following the **[Build a Static Site Generator in Python](https://www.boot.dev/courses/build-static-site-generator-python)** course on Boot.dev, which covers:
 
@@ -188,16 +188,16 @@ This project was built following the **[Build a Static Site Generator in Python]
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 The demo site is a Tolkien fan page generated entirely from Markdown:
 
 > *"I am in fact a Hobbit in all but size."* — J.R.R. Tolkien
 
-👉 [harmen91.github.io/static-site-generator](https://harmen91.github.io/static-site-generator/)
+ [harmen91.github.io/static-site-generator](https://harmen91.github.io/static-site-generator/)
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes. 
